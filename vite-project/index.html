@@ -11,12 +11,69 @@
 
       
     </div>
-    <div role = "BODY">
-      <h2 tabindex="0" class="subheader">Build your own taco!!</h2>
-      <h2 tabindex="1" class="subheader">Please select which protein you would like</h2>
+    <div role = "storesselection">
+      <label for="store-select" tabindex="0" class="subheader">Please select which store you would like to get your ingredients from:</label>
+      <select name="stores" tabindex="1" id="store-select">
+        <option  tabindex="2" value="Whole-Foods">Whole Foods</option>
+        <option  tabindex="3" value="Shoprite">Shoprite</option>
+        <option  tabindex="4" value="Target">Target</option>
 
-
+      </select>
     </div>
+
+      <div role="BODY">
+        <h2 tabindex="0" class="subheader">Build your own taco!!</h2>
+        <h2 tabindex="1" class="subheader">Please select which shell you would like</h2>
+      <form tabindex="2" id="shellform">
+        <div>
+          <input class="chckbx" type="checkbox" id="hard" name="type" value="hard"/>
+          <label for="hard">Hard shell</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="soft" name="type" value="soft"/>
+          <label for="soft">Soft shell</label>
+        </div>
+       <h2 class="subheader">Now choose a protein</h2>
+        <div>
+          <input class="chckbx" type="checkbox" id="steak" name="type" value="steak"/>
+          <label for="steak">Steak</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="chicken" name="type" value="chicken"/>
+          <label for="chicken">Chicken</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="pork" name="type" value="pork"/>
+          <label for="pork">Pork</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="fish" name="type" value="fish"/>
+          <label for="fish">Fish</label>
+        </div>
+        <h2 class="subheader">Don't forget veggies!</h2>
+        <div>
+          <input class="chckbx" type="checkbox" id="lettuce" name="type" value="lettuce"/>
+          <label for="lettuce">Lettuce</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="tomatoes" name="type" value="tomatoes"/>
+          <label for="tomatoes">Tomatoes</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="avocado" name="type" value="avocado"/>
+          <label for="avocado">Avocado</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="beans" name="type" value="beans"/>
+          <label for="beans">Beans</label>
+        </div>
+      </form>
+      
+
+      </div>
+      
+
+    
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>

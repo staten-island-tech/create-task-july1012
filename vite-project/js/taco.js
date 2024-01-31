@@ -1,61 +1,134 @@
-taco [
-    {
-        type: "shell",
-        food1:{ name: "hardshell",
-        spanish: "concha dura",
-        myprice: "$0.50",
-        wholefoodURL: "https://www.wholefoodsmarket.com/product/365-by-whole-foods-market-organic-yellow-taco-shells-12-taco-shells-b074h577w3"
-    },
-        food2:{
-            name: "softshell",
-            spanish: "tortilla",
-            myprice: "$0.50",
-            wholefoodURL: "https://www.wholefoodsmarket.com/product/vista-hermosa-flour-tortillas-8ct-b07drkbgjw"
-        }
-    },
-    {
-        type: "protein",
-        food1:{
-        name: "steak",
-        spanish: "carne asada",
-        myprice: "$13",
-        wholefoodURL:"https://www.wholefoodsmarket.com/product/eat-meati-meati-carne-asada-steak-b0c4g25114",
-    },
-        food2: {name: "chicken",
-        spanish: "pollo",
-        myprice: "$11",
-        wholefoodURL:"https://www.wholefoodsmarket.com/product/whole-foods-market-organic-chicken-breasts-b08538nwft",
-    },
-        food3:{name: "pork",
-        spanish: "al pastor",
-        myprice: "$8",
-        wholefoodURL:"https://www.wholefoodsmarket.com/product/applegate-natural-ground-pork-16oz-b08dk6hygg",
-    },
-        food4:{name: "fish (tilapia)",
-        spanish: "pez",
-        myprice: "$15",
-        wholefoodURL:"https://www.wholefoodsmarket.com/product/365-by-whole-foods-market-tilapia-fillet-b07nrdrlrl",
-    },
-        food5:{ name: "beans",
-        spanish: "frijoles",
-        myprice: "$",
-        wholefoodURL:"",
-    },
-},
+shell =[
+    {name:"Hard shell",
+     store:"Whole Foods",
+     price: 0.30  },
 
-  
-    
-    {
-        shell: ["hardshell", "concha dura","softshell", "tortilla"],
-        protein: ["steak", "chicken", "pork", "fish", "beans", "turkey","shrimp","pollo", "carne asada","al pastor", "birria", "barabcoa","camarón","pez", "frijoles"],
-        vegetables: ["lettuce", "carrots", "avocado", "garlic","cucumber","cilantro","pickled jalapeño","red onion", "zucchini", "mushroom", "squash", "potatoes", "red peppers", "green peppers", "tomatoes","cauliflower","bell peppers"],
-        rice:["white", "black", "brown", "cilantro lime"],
-        sauces:["Salsa de Chamoy", "Pico de Gallo","Salsa Verde","Guacamole-Style Salsa Verde"," Salsa Roja","Salsa de Chile de Árbol","Salsa Tamulada","Guajillo Chile Salsa", "Sour Cream", "Guacamole", "Hot Sauce"],
-    }
+    {name:"Hard shell",
+     store:"Shoprite",
+     price: 0.38  },
+
+    {name:"Hard shell",
+     store:"Target",
+     price: 0.47  },
+
+     {name:"Soft shell",
+     store:"Whole Foods",
+     price: 0.96  },
+
+     {name:"Soft shell",
+     store:"Shoprite",
+     price: 0.25  },
+
+     {name:"Soft shell",
+     store:"Target",
+     price: 0.39  }
 ]
 
-{ name: "softshell",
-    spanish: "tortilla",
-    myprice: "$0.50",
-    wholefoodURL:"",
-},
+protein = [
+    {name:"Steak",
+     store:"Whole Foods",
+     price: 10.99  },
+
+     {name:"Steak",
+     store:"Shoprite",
+     price: 10.36  },
+
+     {name:"Steak",
+     store:"Target",
+     price: 17.99  },
+
+     {name:"Chicken",
+     store:"Whole Foods",
+     price: 4.99  },
+
+     {name:"Chicken",
+     store:"Shoprite",
+     price: 5.49  },
+
+     {name:"Chicken",
+     store:"Target",
+     price: 8.49  },
+
+     {name:"Pork",
+     store:"Whole Foods",
+     price: 5.99  },
+
+     {name:"Pork",
+     store:"Shoprite",
+     price: 5.99  },
+
+     {name:"Pork",
+     store:"Target",
+     price: 4.49 },
+
+     {name:"Fish",
+     store:"Whole Foods",
+     price: 9.99  },
+
+     {name:"Fish",
+     store:"Shoprite",
+     price: 24.99  },
+
+     {name:"Fish",
+     store:"Target",
+     price: 17.99  },
+]
+
+vegetables = [
+    {name:"Lettuce",
+     store:"Whole Foods",
+     price: 2.99  },
+
+    {name:"Lettuce",
+     store:"Shoprite",
+     price: 3.24  },
+
+    {name:"Lettuce",
+     store:"Target",
+     price: 2.89  },
+
+    {name:"Tomatoes",
+     store:"Whole Foods",
+     price: 1.99  },
+
+     {name:"Tomatoes",
+     store:"Shoprite",
+     price: 0.75  },
+
+     {name:"Tomatoes",
+     store:"Target",
+     price: 1.59  },
+
+     {name:"Avocado",
+     store:"Whole Foods",
+     price: 4.99  },
+
+     {name:"Avodcado",
+     store:"Shoprite",
+     price: 3.49  },
+
+     {name:"Avocado",
+     store:"Target",
+     price: 3.79 },
+
+     {name:"Beans",
+     store:"Whole Foods",
+     price: 1.79  },
+
+     {name:"Beans",
+     store:"Shoprite",
+     price: 1.99  },
+
+     {name:"Beans",
+     store:"Target",
+     price: 1.59 },
+
+]
+
+
+
+
+    
+export { shell };
+export { protein };
+export { vegetables };
