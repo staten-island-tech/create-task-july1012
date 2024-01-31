@@ -9,10 +9,10 @@
     <div role="HEADING">
       //MAKE FUNCTION ABOUT SEARCH AND OUTPUT A CARD WITH DESCS
       <label for="site-search" tabindex="0">Search the site's ingredients:</label>
-      <input type="search" id="site-search" name="searchbtn" />
+      <input type="search" id="site-search" name="searchbtn" placeholder="Search the tacos…"/>
       <button tabindex="1">Search</button>
       <img src  = "logo.jpg" class="pic">
-      
+      <div id="searchanswer"></div>
     </div>
     <div role = "storesselection">
       <label for="store-select" tabindex="0" class="subheader">Please select which store you would like to get your ingredients from:</label>
@@ -35,7 +35,7 @@
       <div role="BODY">
         <h2 tabindex="0" class="subheader">Build your own taco!!</h2>
         <h2 tabindex="1" class="subheader">Please select which shell you would like:</h2>
-      <form tabindex="2" id="shellform">
+      <form tabindex="2" id="form">
         <div>
           <input class="chckbx" type="checkbox" id="hard" name="type" value="hard"/>
           <label for="hard">Hard shell</label>
@@ -112,6 +112,7 @@
           <input class="chckbx" type="checkbox" id="lime" name="type" value="lime"/>
           <label for="lime">Lime</label>
         </div>
+
       </form>
       
 
