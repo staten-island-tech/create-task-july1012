@@ -1,3 +1,18 @@
+premade = [
+    {name:"Premade taco",
+     store:"Whole Foods",
+     price: 7.49  },
+
+     {name:"Premade taco",
+     store:"Shoprite",
+     price: 6.39  },
+
+     {name:"Premade taco",
+     store:"Target",
+     price: 3.99  },
+]
+
+
 shell =[
     {name:"Hard shell",
      store:"Whole Foods",
@@ -123,6 +138,105 @@ vegetables = [
      store:"Target",
      price: 1.59 },
 
+     {name:"Cilantro",
+     store:"Whole Foods",
+     price: 0.99  },
+
+     {name:"Cilantro",
+     store:"Shoprite",
+     price: 0.99  },
+
+     {name:"Cilantro",
+     store:"Target",
+     price: 1.19 },
+]
+
+rice = [
+    {name:"White rice",
+     store:"Whole Foods",
+     price: 5.29  },
+
+     {name:"White rice",
+     store:"Shoprite",
+     price: 8.99  },
+
+     {name:"White rice",
+     store:"Target",
+     price: 4.69 },
+
+     {name:"Brown rice",
+     store:"Whole Foods",
+     price: 3.99  },
+
+     {name:"Brown rice",
+     store:"Shoprite",
+     price: 3.89  },
+
+     {name:"Brown rice",
+     store:"Target",
+     price: 2.79 },
+
+     {name:"Cilanto lime rice",
+     store:"Whole Foods",
+     price: 5.29  },
+
+     {name:"Cilantro lime rice",
+     store:"Shoprite",
+     price: 4.79  },
+
+     {name:"Cilantro lime rice",
+     store:"Target",
+     price: 2.49 },
+]
+
+toppings = [
+    {name:"Salsa",
+     store:"Whole Foods",
+     price: 3.99  },
+
+     {name:"Salsa",
+     store:"Shoprite",
+     price: 2.99  },
+
+     {name:"Salsa",
+     store:"Target",
+     price: 3.99 },
+
+     {name:"Guacamole",
+     store:"Whole Foods",
+     price: 3.77  },
+
+     {name:"Guacamole",
+     store:"Shoprite",
+     price: 3.79  },
+
+     {name:"Guacamole",
+     store:"Target",
+     price: 3.99 },
+
+     {name:"Sour cream",
+     store:"Whole Foods",
+     price: 2.33  },
+
+     {name:"Sour cream",
+     store:"Shoprite",
+     price: 2.79  },
+
+     {name:"Sour cream",
+     store:"Target",
+     price: 2.79 },
+
+     {name:"Lime",
+     store:"Whole Foods",
+     price: 0.99  },
+
+     {name:"Lime",
+     store:"Shoprite",
+     price: 0.49  },
+
+     {name:"Lime",
+     store:"Target",
+     price: 0.39 },
 ]
 
 

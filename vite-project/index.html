@@ -7,8 +7,11 @@
   </head>
   <body class="app">
     <div role="HEADING">
+      //MAKE FUNCTION ABOUT SEARCH AND OUTPUT A CARD WITH DESCS
+      <label for="site-search" tabindex="0">Search the site's ingredients:</label>
+      <input type="search" id="site-search" name="searchbtn" />
+      <button tabindex="1">Search</button>
       <img src  = "logo.jpg" class="pic">
-
       
     </div>
     <div role = "storesselection">
@@ -20,10 +23,18 @@
 
       </select>
     </div>
+    <!--idk if i wanna do premade tacos bc its extra work  <div role="premadebody">
+      <h2 tabindex="0" class="subheader">Premade tacos:</h2>
+      <form>
+        <div>
+          <input class="chckbx" type="checkbox" id=""/>
+        </div>
+      </form>
+    </div> -->
 
       <div role="BODY">
         <h2 tabindex="0" class="subheader">Build your own taco!!</h2>
-        <h2 tabindex="1" class="subheader">Please select which shell you would like</h2>
+        <h2 tabindex="1" class="subheader">Please select which shell you would like:</h2>
       <form tabindex="2" id="shellform">
         <div>
           <input class="chckbx" type="checkbox" id="hard" name="type" value="hard"/>
@@ -33,7 +44,7 @@
           <input class="chckbx" type="checkbox" id="soft" name="type" value="soft"/>
           <label for="soft">Soft shell</label>
         </div>
-       <h2 class="subheader">Now choose a protein</h2>
+       <h2 class="subheader">Now choose a protein:</h2>
         <div>
           <input class="chckbx" type="checkbox" id="steak" name="type" value="steak"/>
           <label for="steak">Steak</label>
@@ -50,7 +61,7 @@
           <input class="chckbx" type="checkbox" id="fish" name="type" value="fish"/>
           <label for="fish">Fish</label>
         </div>
-        <h2 class="subheader">Don't forget veggies!</h2>
+        <h2 class="subheader">Don't forget veggies:</h2>
         <div>
           <input class="chckbx" type="checkbox" id="lettuce" name="type" value="lettuce"/>
           <label for="lettuce">Lettuce</label>
@@ -66,6 +77,40 @@
         <div>
           <input class="chckbx" type="checkbox" id="beans" name="type" value="beans"/>
           <label for="beans">Beans</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="cilantro" name="type" value="cilantro"/>
+          <label for="cilantro">Cilantro</label>
+        </div>
+        <h2 class="subheader">Now choose a rice base:</h2>
+        <div>
+          <input class="chckbx" type="checkbox" id="white" name="type" value="white"/>
+          <label for="white">White rice</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="brown" name="type" value="brown"/>
+          <label for="brown">Brown rice</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="cilantrolime" name="type" value="cilantrolime"/>
+          <label for="cilantrolime">Cilantro Lime rice</label>
+        </div>
+        <h2 class="subheader">Finally, toppings:</h2>
+        <div>
+          <input class="chckbx" type="checkbox" id="salsa" name="type" value="salsa"/>
+          <label for="salsa">Salsa</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="guac" name="type" value="guac"/>
+          <label for="guac">Guacamole</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="sourcream" name="type" value="sourcream"/>
+          <label for="sourcream">Sour cream</label>
+        </div>
+        <div>
+          <input class="chckbx" type="checkbox" id="lime" name="type" value="lime"/>
+          <label for="lime">Lime</label>
         </div>
       </form>
       
