@@ -37,6 +37,24 @@ function inject(ingreds) {
 
   inject();
 
+function remove (){
+  DOMSelectors.searchanswer.innerHTML = "";
+}
+
+
+DOMSelectors.searchbtn.addEventListener("click", function (event){
+  event.preventDefault();
+  remove();
+
+  const searches = DOMSelectors.site_search.value.toLowerCase();
+  const ingredsearch = ingreds.filter((ingre) => ingre.name.toLowerCase() == searches);
+
+  if ()
+
+})
+
+
+
 
 let receipt=[];
 
