@@ -10,7 +10,7 @@
       //MAKE FUNCTION ABOUT SEARCH AND OUTPUT A CARD WITH DESCS
       <label for="site-search" tabindex="0">Search the site's ingredients:</label>
       <input type="search" id="site-search" name="searchbtn" placeholder="Search the tacos…"/>
-      <button tabindex="1">Search</button>
+      <button tabindex="1" class="searchbtn">Search</button>
       <img src  = "logo.jpg" class="pic">
       <div id="searchanswer"></div>
     </div>
@@ -112,8 +112,18 @@
           <input class="chckbx" type="checkbox" id="lime" name="type" value="lime"/>
           <label for="lime">Lime</label>
         </div>
-
+        <button type="submit"  class="submitbutton" name="submit" value="submit">Submit</button>
       </form>
+
+        <div tabindex="3">
+          <button id="checkAll">Check All</button>
+          <button id="clear">Clear</button>
+          <h2 id="receiptHeader"></h2>
+          <div id="formanswer"></div>
+        </div>
+
+
+      
       
 
       </div>

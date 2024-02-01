@@ -1,4 +1,4 @@
-premade = [
+const premade = [
     {name:"Premade taco",
      store:"Whole Foods",
      price: 7.49  },
@@ -13,7 +13,7 @@ premade = [
 ]
 
 
-shell =[
+const shell =[
     {name:"Hard shell",
      store:"Whole Foods",
      price: 0.30  },
@@ -39,7 +39,7 @@ shell =[
      price: 0.39  }
 ]
 
-protein = [
+const protein = [
     {name:"Steak",
      store:"Whole Foods",
      price: 10.99  },
@@ -89,7 +89,7 @@ protein = [
      price: 17.99  },
 ]
 
-vegetables = [
+const vegetables = [
     {name:"Lettuce",
      store:"Whole Foods",
      price: 2.99  },
@@ -151,7 +151,7 @@ vegetables = [
      price: 1.19 },
 ]
 
-rice = [
+const rice = [
     {name:"White rice",
      store:"Whole Foods",
      price: 5.29  },
@@ -189,7 +189,7 @@ rice = [
      price: 2.49 },
 ]
 
-toppings = [
+const toppings = [
     {name:"Salsa",
      store:"Whole Foods",
      price: 3.99  },
@@ -246,3 +246,5 @@ toppings = [
 export { shell };
 export { protein };
 export { vegetables };
+export { rice };
+export { toppings };
