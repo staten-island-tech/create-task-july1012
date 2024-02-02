@@ -48,7 +48,7 @@ DOMSelectors.searchbtn.addEventListener("click", function (event){
   const searches = DOMSelectors.site_search.value.toLowerCase();
   const ingredsearch = ingreds.filter((ingre) => ingre.name.toLowerCase() == searches);
 
-  if ()
+  
 
 })
 
