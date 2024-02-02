@@ -35,7 +35,6 @@ function inject(ingreds) {
     );
   }
 
-  inject();
 
 function remove (){
   DOMSelectors.searchanswer.innerHTML = "";
