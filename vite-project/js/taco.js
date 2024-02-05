@@ -1,22 +1,8 @@
-const premade = [
-    {name:"Premade taco",
-     store:"Whole Foods",
-     price: 7.49  },
-
-     {name:"Premade taco",
-     store:"Shoprite",
-     price: 6.39  },
-
-     {name:"Premade taco",
-     store:"Target",
-     price: 3.99  },
-]
-
 
 const shell =[
     {name:"Hard shell",
      store:"Whole Foods",
-     price: 0.30  },
+     price: 0.31  },
 
     {name:"Hard shell",
      store:"Shoprite",
@@ -176,7 +162,7 @@ const rice = [
      store:"Target",
      price: 2.79 },
 
-     {name:"Cilanto lime rice",
+     {name:"Cilantro lime rice",
      store:"Whole Foods",
      price: 5.29  },
 
@@ -240,11 +226,7 @@ const toppings = [
 ]
 
 
-
+const ingredients = [shell, protein, vegetables, rice, toppings]
 
     
-export { shell };
-export { protein };
-export { vegetables };
-export { rice };
-export { toppings };
+export { shell, protein, vegetables, rice, toppings, ingredients };

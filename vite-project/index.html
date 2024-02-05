@@ -1,125 +1,130 @@
 <!doctype html>
 <html lang="en">
   <head>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taco 'bout YUM</title>
   </head>
   <body class="app">
     <div role="HEADING">
-      //MAKE FUNCTION ABOUT SEARCH AND OUTPUT A CARD WITH DESCS
-      <label for="site-search" tabindex="0">Search the site's ingredients:</label>
-      <input type="search" id="site-search" name="searchbtn" placeholder="Search the tacos…"/>
-      <button tabindex="1" class="searchbtn">Search</button>
-      <img src  = "logo.jpg" class="pic">
-      <div id="searchanswer"></div>
+      <h1 class="header">Taco 'bout YUM!</h1>
     </div>
-    <div role = "storesselection">
-      <label for="store-select" tabindex="0" class="subheader">Please select which store you would like to get your ingredients from:</label>
-      <select name="stores" tabindex="1" id="store-select">
-        <option  tabindex="2" value="Whole-Foods">Whole Foods</option>
+    <div role = "storesselection" id="storeSelection">
+      <label for="store-select" tabindex="0" class="storehead">Please select which store you would like to shop in:</label>
+      <select name="stores" tabindex="1" id="store-select" class="storeSelect">
+        <option  tabindex="2" value="Whole Foods">Whole Foods</option>
         <option  tabindex="3" value="Shoprite">Shoprite</option>
         <option  tabindex="4" value="Target">Target</option>
 
       </select>
     </div>
-    <!--idk if i wanna do premade tacos bc its extra work  <div role="premadebody">
-      <h2 tabindex="0" class="subheader">Premade tacos:</h2>
-      <form>
-        <div>
-          <input class="chckbx" type="checkbox" id=""/>
-        </div>
-      </form>
-    </div> -->
-
       <div role="BODY">
-        <h2 tabindex="0" class="subheader">Build your own taco!!</h2>
-        <h2 tabindex="1" class="subheader">Please select which shell you would like:</h2>
+       
       <form tabindex="2" id="form">
+        <h2 tabindex="0" class="build">Build your own taco!!</h2>
+        <h3 tabindex="1" class="subheader">Please select which shell you would like:</h3>
         <div>
-          <input class="chckbx" type="checkbox" id="hard" name="type" value="hard"/>
+          <input class="chckbx" type="checkbox" id="hard" name="type" value="Hard shell"/>
           <label for="hard">Hard shell</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="soft" name="type" value="soft"/>
+          <input class="chckbx" type="checkbox" id="soft" name="type" value="Soft shell"/>
           <label for="soft">Soft shell</label>
         </div>
-       <h2 class="subheader">Now choose a protein:</h2>
+       <h3 class="subheader">Now choose a protein:</h3>
         <div>
-          <input class="chckbx" type="checkbox" id="steak" name="type" value="steak"/>
+          <input class="chckbx" type="checkbox" id="steak" name="type" value="Steak"/>
           <label for="steak">Steak</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="chicken" name="type" value="chicken"/>
+          <input class="chckbx" type="checkbox" id="chicken" name="type" value="Chicken"/>
           <label for="chicken">Chicken</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="pork" name="type" value="pork"/>
+          <input class="chckbx" type="checkbox" id="pork" name="type" value="Pork"/>
           <label for="pork">Pork</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="fish" name="type" value="fish"/>
+          <input class="chckbx" type="checkbox" id="fish" name="type" value="Fish"/>
           <label for="fish">Fish</label>
         </div>
-        <h2 class="subheader">Don't forget veggies:</h2>
+        <h3 class="subheader">Don't forget veggies:</h3>
         <div>
-          <input class="chckbx" type="checkbox" id="lettuce" name="type" value="lettuce"/>
+          <input class="chckbx" type="checkbox" id="lettuce" name="type" value="Lettuce"/>
           <label for="lettuce">Lettuce</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="tomatoes" name="type" value="tomatoes"/>
+          <input class="chckbx" type="checkbox" id="tomatoes" name="type" value="Tomatoes"/>
           <label for="tomatoes">Tomatoes</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="avocado" name="type" value="avocado"/>
+          <input class="chckbx" type="checkbox" id="avocado" name="type" value="Avocado"/>
           <label for="avocado">Avocado</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="beans" name="type" value="beans"/>
+          <input class="chckbx" type="checkbox" id="beans" name="type" value="Beans"/>
           <label for="beans">Beans</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="cilantro" name="type" value="cilantro"/>
+          <input class="chckbx" type="checkbox" id="cilantro" name="type" value="Cilantro"/>
           <label for="cilantro">Cilantro</label>
         </div>
-        <h2 class="subheader">Now choose a rice base:</h2>
+        <h3 class="subheader">Now choose a rice base:</h3>
         <div>
-          <input class="chckbx" type="checkbox" id="white" name="type" value="white"/>
+          <input class="chckbx" type="checkbox" id="white" name="type" value="White rice"/>
           <label for="white">White rice</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="brown" name="type" value="brown"/>
+          <input class="chckbx" type="checkbox" id="brown" name="type" value="Brown rice"/>
           <label for="brown">Brown rice</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="cilantrolime" name="type" value="cilantrolime"/>
+          <input class="chckbx" type="checkbox" id="cilantrolime" name="type" value="Cilantro lime rice"/>
           <label for="cilantrolime">Cilantro Lime rice</label>
         </div>
-        <h2 class="subheader">Finally, toppings:</h2>
+        <h3 class="subheader">Finally, toppings:</h3>
         <div>
-          <input class="chckbx" type="checkbox" id="salsa" name="type" value="salsa"/>
+          <input class="chckbx" type="checkbox" id="salsa" name="type" value="Salsa"/>
           <label for="salsa">Salsa</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="guac" name="type" value="guac"/>
+          <input class="chckbx" type="checkbox" id="guac" name="type" value="Guacamole"/>
           <label for="guac">Guacamole</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="sourcream" name="type" value="sourcream"/>
+          <input class="chckbx" type="checkbox" id="sourcream" name="type" value="Sour cream"/>
           <label for="sourcream">Sour cream</label>
         </div>
         <div>
-          <input class="chckbx" type="checkbox" id="lime" name="type" value="lime"/>
+          <input class="chckbx" type="checkbox" id="lime" name="type" value="Lime"/>
           <label for="lime">Lime</label>
         </div>
-        <button type="submit"  class="submitbutton" name="submit" value="submit">Submit</button>
+        <div class="buttons">
+          <button id="checkAll">Check All</button>
+          <button class="submitbutton" >Submit</button>
+        </div>
+      
       </form>
 
-        <div tabindex="3">
-          <button id="checkAll">Check All</button>
-          <button id="clear">Clear</button>
+        <div tabindex="3" id="receiptInfo">
+          
           <h2 id="receiptHeader"></h2>
-          <div id="formanswer"></div>
+          
+          <div id="receipt">
+            <h3 id="storeName"></h3>
+            <div id="ratingHolder">
+              <h4 id="ratingLabel">Price Rating: </h4>
+              <div id="rating"></div>
+            </div>
+            <div id="formanswer"></div>
+            <div id="totals">
+              <h3 id="totalLabel">Total</h3>
+              <h3 id="totalPrice"></h3>
+            </div>
+
+          </div>
+          <button class="clearbtn">Clear</button>
         </div>
 
 

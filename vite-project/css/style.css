@@ -1,5 +1,109 @@
-.pic{
+:root{
+  --black: #000;
+  --primary:#E0DFD5;
+  --white: #fff;
+}
+
+.app{
+  font-family: 'Luckiest Guy', cursive;
+  background-color: var(--primary);
+}
+.header{
   display: flex;
-  flex-wrap: wrap;
-  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+}
+
+#storeSelection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.storehead{
+  margin-bottom: 1rem;
+}
+
+.subheader{
+  margin-top: 2rem;
+}
+
+.build{
+  font-size: px;
+}
+
+.clearbtn {
+  visibility: hidden;
+  margin-top: 1rem;
+}
+
+#receipt {
+  border: 1px black solid;
+  width: 50%;
+  height:fit-content;
+  visibility: hidden;
+  box-shadow: #00000057 0.5rem 0.5rem 0.5rem;
+  padding-bottom: 1rem;
+  background-color: var(--white);
+}
+
+
+.cardss, #formanswer {
+
+width: 100%;
+
+  
+}
+
+#form, #receiptInfo{
+display: flex;
+  align-items: center;
+  height: fit-content;
+  flex-direction: column;
+}
+.cardss, #totals {
+  display: flex;
+  flex-direction: row;
+  height: 2.5rem;
+  align-items: center;
+}
+.price, #totalPrice {
+  text-align: right;
+  width: 25%;
+  padding-right: 1rem;
+}
+.name, #totalLabel {
+  text-align: left;
+  width: 75%;
+  padding-left: 1rem;
+}
+
+.name, .price {
+  font-weight: normal;
+}
+
+#storeName {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+#ratingHolder, #rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#ratingLabel{ 
+  margin-right: 0.5rem;
+}
+.dollarRating {
+  width: fit-content;
 }
