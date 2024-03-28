@@ -1,4 +1,3 @@
-
 const shell =[
     {name:"Hard shell",
      store:"Whole Foods",
